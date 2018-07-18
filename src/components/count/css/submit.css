@@ -1,0 +1,76 @@
+div.am-list-item {
+    line-height: 50px;
+    background: #eee;
+}
+
+.sele {
+    height: 65px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    line-height: 45px;
+    padding: 20px 10px 0 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sele div.am-list-item .am-list-content,
+.sele div.am-list-item .am-list-extra {
+    line-height: 50px;
+}
+
+.sele input {
+    text-align: right;
+    outline: none;
+    border: none;
+    background: #eee;
+    width: 70%;
+    height: 45px;
+    margin-bottom: 1px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.sele span {
+    padding: 0 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.selec button {
+    padding: 10px 20px 10px;
+    border: none;
+    outline: none;
+    margin: 0 3px;
+    border-radius: 5px;
+}
+
+.selec {
+    height: 65px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    line-height: 45px;
+    padding: 20px 10px 0 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub {
+    background: #007aff;
+    color: #fff;
+}
+
+.res {
+    background: #dd524d;
+    color: #fff;
+}
+
+.am-modal-button-group-v a.am-modal-button {
+    color: #333;
+}
+
+.am-modal-button-group-v a.am-modal-button:last-child {
+    color: #108ee9;
+}

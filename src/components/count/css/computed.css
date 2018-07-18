@@ -1,0 +1,42 @@
+.com_text {
+    box-sizing: border-box;
+    padding: 20px 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.com_text h3 {
+    height: 40px;
+    width: 75%;
+    margin: 20px auto;
+    line-height: 40px;
+    text-align: center;
+    background: #ccc;
+    border-radius: 5px;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    line-height: 34px;
+}
+
+.info td {
+    background-color: #d9edf7;
+}
+
+tr td {
+    border: 1px solid #ddd;
+}

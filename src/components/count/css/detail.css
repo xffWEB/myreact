@@ -1,0 +1,23 @@
+div.de_name {
+    margin: 0 0 15px;
+    padding: 20px 15px;
+    background: #eee;
+    font-size: 20px;
+    height: 20px;
+}
+
+.de_list {
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.de_list li {
+    padding: 15px 0;
+    display: flex;
+}
+
+.de_list span {
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+}

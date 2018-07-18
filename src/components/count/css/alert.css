@@ -1,0 +1,57 @@
+.mark li {
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    line-height: 45px;
+    padding: 10px 10px 0 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 9;
+}
+
+.mark {
+    width: 90%;
+    border-radius: 10px;
+    background: #f6f6f6;
+    margin: 100px auto;
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+
+.mark li input {
+    outline: none;
+    border: none;
+    width: 70%;
+    height: 45px;
+    margin-bottom: 1px;
+    font-size: 16px;
+    margin-right: 10px;
+    background: #f6f6f6;
+}
+
+.mark li span {
+    padding: 0 16px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.mark .selec {
+    display: flex;
+    justify-content: center;
+    border-bottom: none;
+}
+
+.mark .nodebor {
+    border: none;
+    text-align: center;
+}
